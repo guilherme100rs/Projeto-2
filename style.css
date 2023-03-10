@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: 'open sans', sans-serif;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
+
+}
+
+.page {
+  border: 1px solid white;
+  /*se eu quiser deixar linha de borda*/
+  width: 1000px;
+  margin: 0 auto;
+  padding: 65px;
+
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 55px;
+
+}
+
+ul {
+  display: flex;
+  gap: 48px;
+  /*espaço entre as palavras*/
+  list-style: none
+    /*tira os pontos do lado da plavra*/
+    margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Mulish', sans-serif;
+}
+
+ul li a{
+  opacity: 0.5;  /* opaccity deixa mais fraca a cor da palavra*/
+}
+
+ul li a {
+  text-decoration: none;
+  /*retira o sublinhado*/
+  color: #1F1534;
+}
+
+ul li a:hover {
+  font-weight: bold;  /*quando passa o mouse muda a cor do texto*/
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  /*coloca a imagem ao lado*/
+  align-items: center;
+  /*alinhamento*/
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  color: #000;
+  font-weight: normal;
+}
+
+h1 span {
+  color: #89C5CC;
+  font-weight: bold;
+}
+
+section p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+  margin: 40px 0;
+
+}
+
+button {
+  color: white;
+  text-transform: uppercase;
+  /*deixa a letra maiuscula*/
+  font-family: 'open sans', sans-serif;
+
+  background: #69b99d;
+  /*cores de fundo de uma caixa ou botão*/
+  border: 0;
+  /*retira bordas*/
+  padding: 14px 32px 15px;
+  /*diametros da caixa do botão*/
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /*espacamento entre o sibolo do whatasap e o texto da caixa*/
+  border-radius: 4px;
+  /*deixa  aborda da caixa ou botão arredondado*/
+  cursor: pointer;
+  /*habilita a mão no cursor*/
+
+}
+
+button:hover {
+  background: #4ea788;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+#balls{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
